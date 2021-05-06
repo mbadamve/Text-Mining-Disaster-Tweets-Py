@@ -18,3 +18,5 @@ In this research project, the goal is to extract information from tweets posted 
 10. matplotlib
 
 All these packages (3-10) can be installed by using the command 'pip3 install <package_name>'. For example, 'pip3 install numpy' will install numpy
+
+There are 8 '.ipynb' files or Jupyter Notebooks, 1 '.pdf' research report and 4 '.csv' files in this repository. Each .csv file consists of data required for running the notebooks. Notebooks starting with 'crisis_nlp_' consist models built in each disaster type and notebooks starting with 'sklearn_BERT_' consist of BERT model for each disaster type. Running BERT notebooks require GPU, so it is better if you run these files in Google Colab and setting the notebook type to GPU.
